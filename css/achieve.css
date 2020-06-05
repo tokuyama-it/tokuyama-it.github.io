@@ -1,0 +1,29 @@
+body{
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    
+    color:white;
+    font-style:normal;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+a{text-decoration:none;}
+.top-bar a{
+    color:white;
+}
+.upright{
+    text-combine-upright:all;
+}
+.title{
+    position:absolute;
+    top:50%;
+    left:50%;
+    display:inline;
+    transform:translate(-50%, -50%);
+}
+.lang{
+    text-combine-upright:all;
+    color:white;
+}
+.abroad{
+    color:gray;
+}
