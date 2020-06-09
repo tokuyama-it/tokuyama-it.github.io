@@ -4,7 +4,7 @@ body{
     font-style:normal;
     font-family: 'Noto Sans JP', sans-serif;
 }
-
+/*--------------------------------------------------*/
 .top-bar{
     margin:0 0 0 auto;
     -ms-writing-mode: tb-rl;
@@ -24,11 +24,8 @@ body{
 .top-bar #current{
     color:white;
 }
-
-.upright{
-    text-combine-upright:all;
-}
-
+/* top-bar=>右上のホーム、実績、開発のクラス*/
+/*--------------------------------------------------*/
 .title{
     margin-top: 2em;
     margin-left: 3em;
@@ -37,10 +34,35 @@ body{
 a{text-decoration: none;}
 
 .founder{color:#2997FF}
-
-.founder:hover{border-bottom: solid 1px #2997FF;}
+.founder:hover{
+    border-bottom: solid 1px #2997FF;
+}
 
 .detail{
     margin:0 10em;
     word-wrap: break-word;
+}
+.name{
+    border-bottom:solid 1px white;
+    margin-left:6em;
+}
+.icon{
+    margin:0.5em 0.5em 0 0.5em;
+    color:gray;
+}
+.icon-first{
+    margin:0.5em 0 0 5em;
+    color:gray;
+}
+.github:hover{
+    transition:0.5s;
+    color:black;
+}
+.twitter:hover{
+    transition:0.5s;
+    color:#2997FF;
+}
+.home:hover{
+    transition:0.5s;
+    color:white;
 }
