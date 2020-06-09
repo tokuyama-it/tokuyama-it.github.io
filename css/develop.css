@@ -6,11 +6,11 @@ body{
 }
 /*--------------------------------------------------*/
 .top-bar{
-    margin:0 0 0 auto;
+    width:100px;
+    margin-left:auto;
     -ms-writing-mode: tb-rl;
     writing-mode: vertical-rl;
 }
-
 .top-bar a{
     text-decoration: none;
     color:gray;
@@ -26,3 +26,7 @@ body{
 }
 /* top-bar=>右上のホーム、実績、開発のクラス*/
 /*--------------------------------------------------*/
+.top{
+    padding-bottom:10%;
+    background-color:#336633;
+}

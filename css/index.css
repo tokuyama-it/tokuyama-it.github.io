@@ -6,7 +6,8 @@ body{
 }
 /*--------------------------------------------------*/
 .top-bar{
-    margin:0 0 0 auto;
+    width:100px;
+    margin-left:auto;
     -ms-writing-mode: tb-rl;
     writing-mode: vertical-rl;
 }
@@ -15,7 +16,6 @@ body{
     text-decoration: none;
     color:gray;
 }
-
 .top-bar a:hover{
     transition: 0.5s;
     color:white
