@@ -1,30 +1,46 @@
 body{
-    -ms-writing-mode: tb-rl;
-    writing-mode: vertical-rl;
-
     background-color: #253965;
     color:white;
     font-style:normal;
     font-family: 'Noto Sans JP', sans-serif;
 }
-a{text-decoration:none;}
+
+.top-bar{
+    margin:0 0 0 auto;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+}
+
 .top-bar a{
+    text-decoration: none;
+    color:gray;
+}
+
+.top-bar a:hover{
+    transition: 0.5s;
+    color:white
+}
+
+.top-bar #current{
     color:white;
 }
+
 .upright{
     text-combine-upright:all;
 }
+
 .title{
-    position: absolute;
-    top:50%;
-    left:50%;
-    display:inline;
-    transform:translate(-50%, -50%);
+    margin-top: 2em;
+    margin-left: 3em;
 }
-.lang{
-    text-combine-upright:all;
-    color:white;
-}
-.abroad{
-    color:gray;
+
+a{text-decoration: none;}
+
+.founder{color:#2997FF}
+
+.founder:hover{border-bottom: solid 1px #2997FF;}
+
+.detail{
+    margin:0 10em;
+    word-wrap: break-word;
 }
