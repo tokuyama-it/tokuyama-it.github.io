@@ -1,0 +1,47 @@
+body{
+    background-color: #253965;
+    color:white;
+    font-style:normal;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.top-bar{
+    margin:0 0 0 auto;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+}
+
+.top-bar a{
+    text-decoration: none;
+    color:gray;
+}
+
+.top-bar a:hover{
+    transition: 0.5s;
+    color:white
+}
+
+.top-bar #current{
+    color:white;
+}
+
+.upright{
+    text-combine-upright:all;
+}
+
+.title{
+    margin-top: 2em;
+    margin-left: 2em;
+}
+
+a{text-decoration: none;}
+
+.founder{color:#2997FF}
+
+.founder:hover{border-bottom: solid 1px #2997FF;}
+
+.detail{
+    margin-left: 7em;
+    margin-right: 2em;
+    word-wrap: break-word;
+}
