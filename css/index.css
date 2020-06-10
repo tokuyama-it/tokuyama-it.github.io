@@ -47,7 +47,7 @@ a{text-decoration: none;}
     margin-left:6em;
 }
 .icon{
-    margin:0.5em 0.5em 0 0.5em;
+    margin:0.5em 0 0 0.5em;
     color:gray;
 }
 .icon-first{
@@ -55,14 +55,20 @@ a{text-decoration: none;}
     color:gray;
 }
 .github:hover{
+    cursor: pointer;
+    transform: scale(1.1, 1.1);
     transition:0.5s;
     color:black;
 }
 .twitter:hover{
+    cursor: pointer;
+    transform: scale(1.1, 1.1);
     transition:0.5s;
     color:#2997FF;
 }
 .home:hover{
+    cursor: pointer;
+    transform: scale(1.1, 1.1);
     transition:0.5s;
     color:white;
 }
