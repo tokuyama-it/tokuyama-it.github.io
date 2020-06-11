@@ -3,8 +3,13 @@ body{
     color:white;
     font-style:normal;
     font-family: 'Noto Sans JP', sans-serif;
+    animation: back 3s;  /*backアニメーションを適用*/
+    animation-fill-mode:forwards;/*アニメーション後固定*/
 }
-
+@keyframes back {
+    0% { background-color: #253965; }
+    100% { background-color: maroon; }
+}/* #253965からmaroonへ背景を変更
 /*--------------------------------------------------*/
 .top-bar{
     width:100px;
@@ -30,25 +35,23 @@ body{
 /*--------------------------------------------------*/
 .title{
     margin-top:2em;
-    margin-left:10%;
+    margin-left:1em;
 }
-
-ul{
-    list-style: none;
-} /*ulの・を無効化*/
-
-.fa-check{
-    margin-left:15%;
-    margin-right:1em;
-} /*チェックのmariginを指定*/
 
 .border{border-bottom:solid 1px white;}
 
-a{text-decoration:none;}
+.achieve_EN{
+    margin-top:-0.8em;
+    opacity:0.5;
+    margin-left:1.5em;
+}  /*Title下のAchievement*/
 
-.project{
-    color:white;
-    font-size:1.2em;
-} /*projectの内容の色及びフォントサイズを指定*/
+.achieve{
+    margin:1em 1em;
+}  /*実績の内容*/
 
-.project:hover{border-bottom:solid 1px white;} /*hoverでリンクへ移動*/
+.fa-trophy{
+    color:gold;
+    margin-left:4em;
+    margin-right:0.5em;
+}  /*トロフィーの色とmarginの指定*/

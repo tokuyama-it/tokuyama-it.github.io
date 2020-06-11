@@ -35,7 +35,7 @@ body{
 /*--------------------------------------------------*/
 .title{
     margin-top:2em;
-    margin-left:3em;
+    margin-left:10%;
 }
 
 .border{border-bottom:solid 1px white;}
@@ -43,14 +43,15 @@ body{
 .achieve_EN{
     margin-top:-0.8em;
     opacity:0.5;
-    margin-left:4em;
+    margin-left:10%;
 }  /*Title下のAchievement*/
 
 .achieve{
-    margin:1em 10em;
+    margin:1em 1em;
 }  /*実績の内容*/
 
 .fa-trophy{
     color:gold;
-    margin-right:1em;
+    margin-left:15%;
+    margin-right:0.5em;
 }  /*トロフィーの色とmarginの指定*/

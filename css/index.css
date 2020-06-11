@@ -28,7 +28,7 @@ body{
 /*--------------------------------------------------*/
 .title{
     margin-top: 2em;
-    margin-left: 3em;
+    margin-left: 10%;
 }
 
 a{text-decoration: none;}
@@ -39,19 +39,19 @@ a{text-decoration: none;}
 }
 
 .detail{
-    margin:0 10em;
+    margin:0 14%;
     word-wrap: break-word;
 }
 .name{
     border-bottom:solid 1px white;
-    margin-left:6em;
+    margin-left:13%;
 }
 .icon{
     margin:0.5em 0 0 0.5em;
     color:gray;
 }
 .icon-first{
-    margin:0.5em 0 0 5em;
+    margin:0.5em 0 0 14%;
     color:gray;
 }
 .github:hover{
