@@ -1,9 +1,10 @@
 body{
-    background-color: #253965;
+    background-color:#253965;
     color:white;
     font-style:normal;
     font-family: 'Noto Sans JP', sans-serif;
 }
+
 /*--------------------------------------------------*/
 .top-bar{
     width:100px;
@@ -11,6 +12,7 @@ body{
     -ms-writing-mode: tb-rl;
     writing-mode: vertical-rl;
 }
+
 .top-bar a{
     text-decoration: none;
     color:gray;
@@ -26,7 +28,27 @@ body{
 }
 /* top-bar=>右上のホーム、実績、開発のクラス*/
 /*--------------------------------------------------*/
-.top{
-    padding-bottom:10%;
-    background-color:#336633;
+.title{
+    margin-top:2em;
+    margin-left:3em;
 }
+
+ul{
+    list-style: none;
+} /*ulの・を無効化*/
+
+.fa-check{
+    margin-left:8em;
+    margin-right:1em;
+} /*チェックのmariginを指定*/
+
+.border{border-bottom:solid 1px white;}
+
+a{text-decoration:none;}
+
+.project{
+    color:white;
+    font-size:1.2em;
+} /*projectの内容の色及びフォントサイズを指定*/
+
+.project:hover{border-bottom:solid 1px white;} /*hoverでリンクへ移動*/

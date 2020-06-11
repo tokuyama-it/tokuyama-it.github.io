@@ -1,9 +1,15 @@
 body{
-    background-color: #253965;
+    background-color:#253965;
     color:white;
     font-style:normal;
     font-family: 'Noto Sans JP', sans-serif;
+    animation: back 3s;  /*backアニメーションを適用*/
+    animation-fill-mode:forwards;/*アニメーション後固定*/
 }
+@keyframes back {
+    0% { background-color: #253965; }
+    100% { background-color: maroon; }
+}/* #253965からmaroonへ背景を変更
 /*--------------------------------------------------*/
 .top-bar{
     width:100px;
@@ -27,3 +33,24 @@ body{
 }
 /* top-bar=>右上のホーム、実績、開発のクラス*/
 /*--------------------------------------------------*/
+.title{
+    margin-top:2em;
+    margin-left:3em;
+}
+
+.border{border-bottom:solid 1px white;}
+
+.achieve_EN{
+    margin-top:-0.8em;
+    opacity:0.5;
+    margin-left:4em;
+}  /*Title下のAchievement*/
+
+.achieve{
+    margin:1em 10em;
+}  /*実績の内容*/
+
+.fa-trophy{
+    color:gold;
+    margin-right:1em;
+}  /*トロフィーの色とmarginの指定*/
