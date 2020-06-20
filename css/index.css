@@ -33,17 +33,12 @@ body{
 
 a{text-decoration: none;}
 
-.founder{color:#2997FF}
-.founder:hover{
-    border-bottom: solid 1px #2997FF;
-}
-
 .detail{
     margin:0 14%;
     word-wrap: break-word;
 }
 .name{
-    border-bottom:solid 1px white;
+    margin-top:2em;
     margin-left:13%;
 }
 .icon{
@@ -72,3 +67,5 @@ a{text-decoration: none;}
     transition:0.5s;
     color:white;
 }
+
+.border{border-bottom:solid 1px white;}

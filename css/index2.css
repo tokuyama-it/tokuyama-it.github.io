@@ -29,15 +29,10 @@ body{
 /*--------------------------------------------------*/
 .title{
     margin-top: 2em;
-    margin-left: 1em;
+    margin-left: 2em;
 }
 
 a{text-decoration: none;}
-
-.founder{color:#2997FF}
-.founder:hover{
-    border-bottom: solid 1px #2997FF;
-}
 
 .detail{
     margin-left:5em;
@@ -45,7 +40,6 @@ a{text-decoration: none;}
     word-wrap: break-word;
 }
 .name{
-    border-bottom:solid 1px white;
     margin-left:3em;
 }
 .icon{
@@ -74,3 +68,5 @@ a{text-decoration: none;}
     transition:0.5s;
     color:white;
 }
+
+.border{border-bottom:solid 1px white;}
