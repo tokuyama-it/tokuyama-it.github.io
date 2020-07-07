@@ -55,3 +55,11 @@ body{
     margin-left:4em;
     margin-right:0.5em;
 }  /*トロフィーの色とmarginの指定*/
+
+a{
+    text-decoration: none;
+	outline: none;
+}
+a:focus{
+	outline: none;
+}
