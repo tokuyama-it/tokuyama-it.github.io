@@ -44,7 +44,13 @@ ul{
 
 .border{border-bottom:solid 1px white;}
 
-a{text-decoration:none;}
+a{
+    text-decoration: none;
+	outline: none;
+}
+a:focus{
+	outline: none;
+}
 
 .project{
     color:white;
